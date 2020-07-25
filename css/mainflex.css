@@ -71,3 +71,29 @@ header {
     font-size: 2rem;
     color: #000;
 }
+
+.main-part {
+   
+    display: flex;
+    /* flex-direction: column; */
+ justify-content: space-between;
+ align-items: center;
+ 
+}
+
+.main-part__text {
+    margin-left: 100px;
+    color: #fff;
+    
+}
+
+
+.main-part__text h1{
+    font-size: 4.2rem;
+    
+}
+.main-part__text p{
+    font-size: 2.4rem;
+    width: 27rem;
+    
+}
