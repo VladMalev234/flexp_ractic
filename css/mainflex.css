@@ -97,3 +97,56 @@ header {
     width: 27rem;
     
 }
+.main-part__text button{
+    font-size: 2.2rem;
+    background: #5094f2;
+    width: 174px;
+    height: 44px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+}
+
+.fa-check {
+    font-size: 1.2rem;
+    color:#5094f2 !important;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 4px;
+    vertical-align: bottom;
+    margin-right: 5px;
+
+}
+
+#goods {
+    padding-top: 60px;
+ 
+}
+#goods ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+}
+
+.item h4 {
+    font-size: 2rem;
+    margin: 2rem 0px 0px 0px;
+
+    color: #5094f2;
+}
+
+.item p {
+    font-size: 1.5rem;
+    width:60%;
+}
+
