@@ -32,6 +32,9 @@ body {
     list-style: none;
 }
 
+/* section {
+    width: 90%;
+} */
 
 header {
     background: url(../img/bg.png)  no-repeat center top/ cover;
@@ -122,9 +125,10 @@ header {
 
 #goods {
     padding-top: 60px;
- 
+    
 }
-#goods ul {
+
+.goods__items {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -150,3 +154,53 @@ header {
     width:60%;
 }
 
+#shoping {
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content:  space-around;
+    color: #6f7173;
+    padding-bottom: 4rem;
+}
+
+#shoping h2 {
+    font-size: 4.2rem;
+    padding-left: 9rem;
+}
+
+.shoping-content {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content:  space-around;
+}
+
+.text-content {
+    width: 40%;
+
+}
+.text-content span{
+font-size: 2.6rem;
+}
+
+.text-content p{
+font-size: 1.5rem;
+ line-height: 3rem;
+}
+
+.line {
+    content: '';
+    display: block;
+    height: 2px;
+    background:  #6f7173;
+    width: 100%;
+}
+
+footer {
+    padding: 3rem 0rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #6f7173;
+}
