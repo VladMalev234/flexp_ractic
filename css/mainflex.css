@@ -18,10 +18,9 @@ body {
     padding: 0;
 }
 
-*, *:before, *:after{
+*, *:before, *:after, *:hover{
     box-sizing: border-box;
     transition: all 0.5s ease;
-    box-sizing: border-box;
     text-decoration: none;
     -moz-transition: all 0.3s ease;
     -webkit-transition-property: all;
@@ -58,12 +57,22 @@ header {
  width: 90%;
  display: flex;
  justify-content: space-between;
- align-items: center;
+ /* align-items: center; */
  align-content: center;
 
 }
+.head-bar__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
 .menu {
     width: 60%;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center; */
 }
 
 .menu ul {
@@ -73,17 +82,43 @@ header {
 .menu a {
     font-size: 2rem;
     color: #000;
+    line-height: 60px;
+    padding: 0;
+    margin: 0;
+    /* border-bottom: 2px; */
+}
+
+.menu a:hover {
+    padding: 0;
+    margin: 0;
+    border-bottom: 2px solid #5094f2;
+    display: inline-block;
+    /* line-height: 0.85; */
+    line-height: 59px;
 }
 
 .main-part {
-   
     display: flex;
     /* flex-direction: column; */
  justify-content: space-between;
  align-items: center;
+ position: relative;
  
 }
-
+.main-part__arrow {
+    font-size: 50px;
+    color: #fff !important;
+    cursor: pointer;
+  }
+    .arrow_left {
+      position: absolute;
+      left: -90px;
+      
+    }
+  .arrow_right {
+    position: absolute;
+    right: -90px;
+  }
 .main-part__text {
     margin-left: 100px;
     color: #fff;
