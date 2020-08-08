@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/mainflex.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/mediaflex.css">
+    <title>Flex-practice</title>
 </head>
 <body>
     <header>
@@ -13,8 +14,11 @@
                 <div class="head-bar__logo">
                     <img src="img/logo.png" alt="">
                 </div>
-                <nav class="menu">
-                    <ul>
+                <a href="" class="menu-link">
+                    <i class="fa  fa-bars"></i>
+                </a>
+                <nav class="menu visible-lg">
+                    <ul class="">
                         <li><a href="#" class="menu__links">Home</a></li>
                         <li><a href="#" class="menu__links">Products</a></li>
                         <li><a href="#" class="menu__links">Services</a></li>
@@ -24,16 +28,14 @@
                 </div>
         </div>
        <div class="main-part">
-           <div class="main-part__arrow">
+           <div class="main-part__arrow dsn">
                <div class="arrow_left fa fa-chevron-left">
-
                </div>
                <div class="arrow_right  fa fa-chevron-right">
-                   
                </div>
            </div>
-            <div>
-                <img src="img/iphone.png" alt="">
+            <div >
+                <img src="img/iphone.png" alt="" class="main-part_img">
             </div>
             <div class="main-part__text">
                 <h1>Lorem Ipsum is simply</h1>
@@ -44,27 +46,35 @@
             </div>
        </div>
     </header>
+
     <section id="goods">
         <ul class="goods__items">
             <li class="item">
                     <img src="img/basket.png" alt="">
-                    <h4>Contrary to popular</h4>
+                    <div class="text_part">
+                        <h4>Contrary to popular</h4>
                     <p>Lorem Ipsum is not simply 
-                        random text. It has roots in a piece </p>
+                     random text. It has roots in a piece </p>
+                    </div>
+                    
             </li>
 
             <li class="item">
                     <img src="img/pensil.png" alt="">
+                    <div class="text_part">
                     <h4>Contrary to popular</h4>
                     <p>Lorem Ipsum is not simply
-                         random text. It has roots in a piece </p>
+                     random text. It has roots in a piece </p>
+                     </div>
             </li>
 
             <li div class="item">
                     <img src="img/TV.png" alt="">
+                    <div class="text_part">
                     <h4>Contrary to popular</h4>
                     <p>Lorem Ipsum is not simply 
                         random text. It has roots in a piece </p>
+                        </div>
             </li>
         </ul>
     </section>
